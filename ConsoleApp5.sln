@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Work_with_Api", "Work_with_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates_and_Lambde", "Delegates_and_Lambde\Delegates_and_Lambde.csproj", "{94181F3C-D88A-4FD5-B315-18D2CE125A6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_API", "HomeWork_API\HomeWork_API.csproj", "{9328FE06-D738-4ACB-A571-425509768D47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork_API", "HomeWork_API\HomeWork_API.csproj", "{9328FE06-D738-4ACB-A571-425509768D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_Delegates", "HomeWork_Delegates\HomeWork_Delegates.csproj", "{6BD3138E-6E82-44B3-85C6-BD76C7B0DCC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9328FE06-D738-4ACB-A571-425509768D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9328FE06-D738-4ACB-A571-425509768D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9328FE06-D738-4ACB-A571-425509768D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD3138E-6E82-44B3-85C6-BD76C7B0DCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD3138E-6E82-44B3-85C6-BD76C7B0DCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD3138E-6E82-44B3-85C6-BD76C7B0DCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD3138E-6E82-44B3-85C6-BD76C7B0DCC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
