@@ -86,6 +86,7 @@ namespace HomeWork_API
             WebClient webClient = new WebClient();
             var json = webClient.DownloadString($"{baseUrl}/?q={cityName},{countryCode}&appid={key}&units=metric");
             Console.WriteLine(json);
+            Console.WriteLine("/--------------------------------------------------------------------------------------------------------------/");
             var rootobject = JsonSerializer.Deserialize<Rootobject>(json);
             Console.WriteLine(rootobject.name);
             Console.WriteLine("Координаты: ");
