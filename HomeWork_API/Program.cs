@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Net;
+using System.Collections.Generic;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace HomeWork_API
 {
@@ -25,7 +27,7 @@ namespace HomeWork_API
     public class Coord
     {
         public float lon { get; set; }
-        public int lat { get; set; }
+        public float lat { get; set; }
     }
 
     public class Main
@@ -40,7 +42,7 @@ namespace HomeWork_API
 
     public class Wind
     {
-        public int speed { get; set; }
+        public float speed { get; set; }
         public int deg { get; set; }
     }
 
@@ -73,7 +75,6 @@ namespace HomeWork_API
     class Program
     {
        
-
         static void Main(string[] args)
         {
             string baseUrl = "https://api.openweathermap.org/data/2.5/weather";
