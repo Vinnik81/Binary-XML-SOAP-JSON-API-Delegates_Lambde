@@ -34,7 +34,7 @@ namespace HomeWork_Delegates
                     foreach (var item in newErr) Console.Write($"{item}\t"); break;
                 case 6: Console.Write("Введите число: ");
                     int n = int.Parse(Console.ReadLine());
-                    if (n >= 0 || n < arr[n])
+                    if (n >= 0 || n < arr.Count)
                     {
                         var newFrr = Func(arr, x => x > n);
                         foreach (var item in newFrr) Console.Write($"{item}\t"); 
